@@ -13,6 +13,8 @@ npm install use-barcode
 ```js
 import useBarcode from 'react-barcode';
 
+const barcode = useBarcode();
+
 useEffect(() => {
   if (barcode) {
     // do your own logic
